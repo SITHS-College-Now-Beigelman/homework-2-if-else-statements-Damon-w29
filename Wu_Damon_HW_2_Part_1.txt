@@ -79,4 +79,19 @@ int main(){
         }
     return 0;   // ends the code 
     }
+
+    /*
+    To determine the current season, please input a month and date in numerical format, (for example, march first is 3, 1)
+        3 22
+    It is currently Spring.
+    To determine the current season, please input a month and date in numerical format, (for example, march first is 3, 1)
+        5 12
+    It is currently Spring.
+    To determine the current season, please input a month and date in numerical format, (for example, march first is 3, 1)  
+        -2 6
+    Invalid date. Remember, there are 12 months in a year and up to 31 days in a month, if you put a negative, why?
+    To determine the current season, please input a month and date in numerical format, (for example, march first is 3, 1)  
+        0 12
+    Invalid date. Remember, there are 12 months in a year and up to 31 days in a month, if you put a negative, why?
+    */
 }
