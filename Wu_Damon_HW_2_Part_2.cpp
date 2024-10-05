@@ -47,45 +47,45 @@ int main(){
     How this code will work is that the total scores will be tallied up, then an algorithm will sort the remaining scores into the lowest and highest, 
     those lowest and highest numbers will be subtracted from the total score then divided by 4, finding the average of the 4 median scores.
     */
-    total = (score1 + score2 + score3 + score4 + score5 +score6);
+    total = (score1 + score2 + score3 + score4 + score5 + score6);
 
     if(score1 < score2 && score3 && score4 && score5 && score6){
-        score1 = low;
+        low = score1;
     }
         else if (score2 < score3 && score4 && score5 && score6){
-            score2 = low;
+            low = score2;
         }
         else if (score3 < score4 && score5 && score6) {
-            score3 = low;
+            low = score3;
         }
         else if (score4 < score5 && score6){
-            score4 = low;
+            low = score4;
         }
         else if (score5 < score6){
-            score5 = low; 
+            low = score5; 
         }
         else {
-            score6 = low;
+            low = score6;
         }
 
     //this is essentially the same as the code before, however, this is finding the highest number. 
     if(score1 > score2 && score3 && score4 && score5 && score6){
-        score1 = high;
+        high = score1;
     }
         else if (score2 > score3 && score4 && score5 && score6){
-            score2 = high;
+            high = score2;
         }
         else if (score3 > score4 && score5 && score6) {
-            score3 = high;
+            high = score3;
         }
         else if (score4 > score5 && score6){
-            score4 = high;
+            high = score4;
         }
         else if (score5 > score6){
-            score5 = high; 
+            high = score5; 
         }
         else {
-            score6 = high;
+            high = score6;
         }
 
 
