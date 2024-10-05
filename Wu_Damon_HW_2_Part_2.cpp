@@ -20,7 +20,7 @@ int main(){
     double score4;
     double score5;
     double score6;
-//inputs are then sorted into the points used for calculations
+//inputs are then sorted into these points used for calculations
     double point1;
     double point2;
     double point3;
@@ -60,9 +60,16 @@ int main(){
     cin >> score4;
      if(score4 > high){
         score4 = high;
+        if(score1||score2||score3 = high){
+            score1||score2||score3 = point1;
+        }
+
     }
         if(score4 < low){
             score4 = low;
+        if(score1||score2||score3 = low){
+            score1||score2||score3 = point1;
+        }
         }
     
     cout << "Judge 5 please put your score in. \n";
@@ -86,4 +93,8 @@ int main(){
     cout << "Your score is " << (point1 + point2 + point3 + point4)/4 << " good job! \n";
 
     return 0; // ends code
+
+    /*
+    
+    */
 }
