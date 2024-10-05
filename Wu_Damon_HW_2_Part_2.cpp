@@ -24,6 +24,7 @@ int main(){
 // will be used to determine the total score 
     double total;
 
+
     //these first segments will take in the points from all the judges
     cout <<"Judge 1 please put your score in, remember, the max score is 10 and the lowest is 0, put your scores in whole numbers! \n";
     cin >> score1;
@@ -89,11 +90,24 @@ int main(){
         }
 
 
-    cout << "The judges have decided, your score is " <<fixed<< setprecision(1) << (total - (low + high))/4 << " good job! \n";
+    // calculates the average score from the given information to us. 
+    cout << "The judges have decided, your score is " <<fixed<< setprecision(1) << (total - (low + high))/4 << ", good job! \n";
     
     return 0; // ends code
 
     /*
-    
+    Judge 1 please put your score in, remember, the max score is 10 and the lowest is 0, put your scores in whole numbers! 
+    1
+    Judge 2 please put your score in. 
+    2
+    Judge 3 please put your score in. 
+    3
+    Judge 4 please put your score in. 
+    4
+    Judge 5 please put your score in. 
+    5
+    Judge 6 please put your score in. 
+    6
+    The judges have decided, your score is 3.5, good job! 
     */
 }
